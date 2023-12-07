@@ -16,7 +16,6 @@
  color: #5d5d5d;
 }
 
-
 h1{
     color: darkred;
     font-family: Nova Square, Rejdhani;
@@ -31,7 +30,50 @@ h1{
     margin: 50px;
  }
 
- .rotate{
-    rotate: (-10);
+ .bgsfondo2{
+  height: 1080px;
+  background-color: #ececec;
+  padding-top: 100px;
  }
 
+.apici{
+  color: darkred;
+  font-size: 20px;
+}
+
+ .icone{
+  font-size: 50px;
+  color: darkred;
+ }
+
+ .sottoicone{
+   text-align: center;
+ }
+
+h3{
+  color: darkred;
+}
+
+.fakebut{
+  background-color: darkred;
+  height: 100px;
+  width: 100px;
+}
+
+
+.btncolor{
+  background-color: darkred;
+  color: white;
+
+}
+
+.bgsfondoalberi{
+  background: url(media/trees2.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.bgsfondo2color{
+  background-color: #ececec;
+}
