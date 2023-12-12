@@ -1,7 +1,12 @@
+*{
+  font-family: 'Nova Square', sans-serif;
+}
+
 .logo{
     width: 150px;
     height: 100px;
 }
+
 
 .bgsfondo1{
   background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)), url(media/switzerland-862870_1920.jpg);
