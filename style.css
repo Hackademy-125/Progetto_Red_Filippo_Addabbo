@@ -31,7 +31,7 @@ h1{
  }
 
  .bgsfondo2{
-  height: 1080px;
+  min-height: 1080px;
   background-color: #ececec;
   padding-top: 100px;
  }
@@ -76,4 +76,81 @@ h3{
 
 .bgsfondo2color{
   background-color: #ececec;
+}
+
+.colorededicato{
+  color: darkred;
+}
+
+.timeline{
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 4px solid darkred;
+  /* margin-top: 20px; */
+}
+  
+.pallino{
+  position: relative;
+}
+
+.pallino::before{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border: 2px solid darkred;
+  border-radius: 50%;
+  left: -32px;
+  top: 0px;
+  background-color: white;
+}
+
+.timelinebox{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bgsfondo4{
+  background-color: #ececec;
+}
+
+.boxrotondo{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 3px solid darkred;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.iconesocial{
+  color: darkred;
+}
+
+.pini{
+  position: relative;
+}
+
+.pinispostati{
+  position: absolute;
+  bottom: -100px;
+}
+
+/* .pinirossispostati{
+  position: absolute;
+  bottom: -350px;
+} */
+
+.footer{
+  background-color: darkred;
+  height: 1080px;
+}
+
+.bgsfondo5{
+  background-color: darkred;
+}
+
+.colorwhite{
+  color: white;
 }
